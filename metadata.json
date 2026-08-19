@@ -1,0 +1,6 @@
+{
+  "name": "Oja Worker Portal",
+  "description": "Progressive Web App for Oja workers to manage jobs, earnings, and availability.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

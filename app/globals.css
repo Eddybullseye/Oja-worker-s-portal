@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-oja-teal: #028090;
+  --color-oja-seafoam: #00A896;
+  --color-oja-orange: #F9A826;
+  --color-oja-bg: #F7FAFA;
+  --color-oja-bg-dark: #0F1717;
+  --color-oja-surface-dark: #1A2828;
+  --color-oja-text-dark: #E4F1F1;
+}
+
+:root {
+  --background: #F7FAFA;
+  --foreground: #0f172a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0F1717;
+    --foreground: #E4F1F1;
+  }
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  -webkit-tap-highlight-color: transparent;
+}
